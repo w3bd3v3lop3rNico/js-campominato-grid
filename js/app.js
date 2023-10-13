@@ -41,10 +41,10 @@ playBtnDOMElement.addEventListener('click', function() {
         //     - ad ogni casella aggiungo un event listener
         selectedCell.addEventListener('click', function() {
 
-        //         - ogni volta che l'event listener si attiverà su una casella aggiungerà la classe 'bg-color'
-        selectedCell.classList.add('bg-color');
-    })
-}
+            //         - ogni volta che l'event listener si attiverà su una casella aggiungerà la classe 'bg-color'
+            selectedCell.classList.add('bg-color');
+        })
+    }
 })
 
 
