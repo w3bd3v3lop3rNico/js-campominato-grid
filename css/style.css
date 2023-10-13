@@ -15,3 +15,21 @@
     margin: 0 auto;
     max-width: 700px;
 }
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cell {
+    flex-basis: calc((100% / 10) * 1);
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    aspect-ratio: 1;
+}
+
+.bg-color {
+    background-color: lightskyblue;
+}
