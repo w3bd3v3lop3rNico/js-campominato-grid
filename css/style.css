@@ -22,12 +22,23 @@
 }
 
 .cell {
-    flex-basis: calc((100% / 10));
     border: 2px solid black;
     display: flex;
     align-items: center;
     justify-content: center;
     aspect-ratio: 1;
+}
+
+.normal-grid {
+    flex-basis: calc(100% / 10);
+}
+
+.medium-grid {
+    flex-basis: calc(100% / 9);
+}
+
+.hard-grid {
+    flex-basis: calc(100% / 7);
 }
 
 .bg-color {

@@ -18,3 +18,15 @@
     - Recuperare il bottone dal DOM
     - creare la funzione che svuota la griglia ad ogni click
     - inserire il codice all'interno dell'event listener
+
+# Bonus
+- Cambiare tabella in base alla difficoltà
+    - Recupero dal DOM l'elemento select ed il suo valore
+        - SE (valore === 1) la difficoltà è normale 
+            - stampa la griglia a 100 caselle  
+        - ALTRIMENTI SE (valore === 2) la difficoltà è media 
+            - stampa la griglia con 81 caselle
+            - modifico il flex basis di "cell"
+        - ALTRIMENTI SE (valore === 3) la difficoltà è difficie 
+            - stampa la griglia con un 49 caselle
+            - modifico il flex basis di "cell"
